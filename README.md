@@ -4,12 +4,12 @@
 ## How to use
   Open *mail/send.php* and set it up:
 
-- **Email title**
+1. **Email title**
 
   `$title = "Message from ...";`
 
 
-- **Sender settings:**
+2. **Sender settings:**
 
   `$mail->Host       = 'smtp.gmail.com';`
 
@@ -19,7 +19,7 @@
 
   `$mail->setFrom('USERNAME@gmail.com', 'Message from ...');`
 
-- **Add recipients:**
+3. **Add recipients:**
 
   `$mail->addAddress('USERNAME@gmail.com');`
 
