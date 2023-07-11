@@ -1,0 +1,12 @@
+/* form */
+
+/* form__success */
+
+.form.is-sended.form__success {
+  opacity: 1;
+}
+
+.form__success {
+  opacity: 0;
+  transition: all .25s ease;
+}
