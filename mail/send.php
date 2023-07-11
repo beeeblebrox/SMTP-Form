@@ -34,7 +34,7 @@ try {
   // $mail->SMTPDebug = 2; // show error
   $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
   
-  // account
+  // sender
   $mail->Host       = 'smtp.gmail.com'; // SMTP host (smtp.mail.ru, smtp.yandex.ru) 
   $mail->Username   = 'USERNAME@gmail.com'; // login
   $mail->Password   = 'PASSWORD'; // password
